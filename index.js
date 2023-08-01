@@ -1,4 +1,5 @@
 let { faker, fakerEN } = require("@faker-js/faker");
+let { sports } = require("./sports-list");
 
 let adjectiveArray = [
   faker.color.human(),
@@ -23,6 +24,7 @@ let nounArray = [
   faker.animal.cat(),
   faker.commerce.department(),
   faker.commerce.product(),
+  sports.randomSport(),
 ];
 
 let noun = nounArray[Math.floor(Math.random() * nounArray.length)];
