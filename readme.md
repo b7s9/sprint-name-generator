@@ -3,5 +3,5 @@
 run
 
 ```zsh
-node new-sprint.js
+node index.js
 ```
